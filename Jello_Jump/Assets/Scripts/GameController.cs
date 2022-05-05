@@ -96,10 +96,10 @@ public class GameController : MonoBehaviour
             OpenRestartBoard();
             for (int i = 0; i < Settings.Length; i++)
             {
-                Settings[i].DOFade(0, 0.5f).SetEase(Ease.OutQuart).OnComplete(() =>
-                {
-                    Settings[i].gameObject.SetActive(false);
-                });
+                Settings[i].gameObject.SetActive(false);
+                // Settings[i].DOFade(0, 0.5f).SetEase(Ease.OutQuart).OnComplete(() =>
+                // {
+                // });
             }
         }
         else
@@ -107,10 +107,10 @@ public class GameController : MonoBehaviour
             Dim.DOFade(0, 0.5f).SetEase(Ease.OutQuart);
             for (int i = 0; i < Settings.Length; i++)
             {
-                Settings[i].DOFade(0, 0.5f).SetEase(Ease.OutQuart).OnComplete(() =>
-                {
-                    Settings[i].gameObject.SetActive(false);
-                });
+                Settings[i].gameObject.SetActive(false);
+                // Settings[i].DOFade(0, 0.5f).SetEase(Ease.OutQuart).OnComplete(() =>
+                // {
+                // });
             }
         }
     }

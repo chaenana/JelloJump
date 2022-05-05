@@ -23,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -45,10 +44,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -86,53 +83,53 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 644}
+      Script: {instanceID: 650}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1756}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 2044}
+      Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 2720}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3862}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 4150}
+      Script: {instanceID: 3866}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4496}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 4658}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4662}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 4720}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5340}
     - Class: 114
       Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 5386}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5490}
     - Class: 114
-      Script: {instanceID: 39252}
+      Script: {instanceID: 5818}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -191,59 +188,59 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 644}
+      Script: {instanceID: 650}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1756}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 2044}
+      Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 2276}
+      Script: {instanceID: 2278}
     - Class: 114
-      Script: {instanceID: 2720}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3862}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 3866}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 3970}
     - Class: 114
-      Script: {instanceID: 4496}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 4600}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4658}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4662}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4720}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 4932}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5340}
     - Class: 114
       Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 5386}
     - Class: 114
-      Script: {instanceID: 39252}
+      Script: {instanceID: 5490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -403,6 +400,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraResolution
   - hash:
       serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
@@ -883,12 +886,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraResolution
   platform: 13
   scenePathNames:
   - Assets/Scenes/Tutorial.unity

@@ -31,7 +31,7 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="sensorPortrait"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +61,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="3b35702c-aa8c-4df0-8be6-52600ba6d5e0" />
+            android:value="aea195da-9f95-4068-9a9d-908d032e63e2" />
     </application>
 
 </manifest>

@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.Jello_Jump'
+        applicationId 'com.ChaenaK.Jello_Jump'
         ndk {
             abiFilters 'armeabi-v7a'
         }

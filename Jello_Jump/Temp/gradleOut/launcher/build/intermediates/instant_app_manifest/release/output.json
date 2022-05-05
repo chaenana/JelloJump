@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.Jello_Jump",
+  "applicationId": "com.ChaenaK.Jello_Jump",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.DefaultCompany.Jello_Jump",
+        "packageId": "com.ChaenaK.Jello_Jump",
         "split": "",
         "minSdkVersion": "19"
       }

@@ -42,6 +42,13 @@
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
+
+            <layout
+                android:defaultHeight="1080px"
+                android:defaultWidth="1920px"
+                android:minHeight="300px"
+                android:minWidth="400px" />
+
             <meta-data
                 android:name="android.notch_support"
                 android:value="true" />
@@ -61,7 +68,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="aea195da-9f95-4068-9a9d-908d032e63e2" />
+            android:value="f2541726-8261-4e3d-b421-fe264b122108" />
     </application>
 
 </manifest>

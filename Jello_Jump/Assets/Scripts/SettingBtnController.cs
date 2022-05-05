@@ -12,7 +12,7 @@ public class SettingBtnController : MonoBehaviour
     }
 
 
-    private void OnMouseDown()
+    public void ClickBtn()
     {
         controller._isSettingBtn_Active = true;
         if (!_isShow)

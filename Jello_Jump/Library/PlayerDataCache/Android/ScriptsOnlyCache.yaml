@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Background_InfiniteScrollHandler
+    - CameraResolution
     - CharacterBtnCotroller
     - CharacterCloseContoller
     - CharacterController
@@ -44,8 +45,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -54,6 +57,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -104,6 +108,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3376}
     - Class: 114
+      Script: {instanceID: 3496}
+    - Class: 114
       Script: {instanceID: 3862}
     - Class: 114
       Script: {instanceID: 4150}
@@ -125,6 +131,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5486}
     - Class: 114
       Script: {instanceID: 5814}
+    - Class: 114
+      Script: {instanceID: 39252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,6 +215,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3376}
     - Class: 114
+      Script: {instanceID: 3496}
+    - Class: 114
       Script: {instanceID: 3862}
     - Class: 114
       Script: {instanceID: 3966}
@@ -230,6 +240,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5378}
     - Class: 114
       Script: {instanceID: 5382}
+    - Class: 114
+      Script: {instanceID: 5486}
+    - Class: 114
+      Script: {instanceID: 39252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -869,6 +883,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraResolution
   platform: 13
   scenePathNames:
   - Assets/Scenes/Tutorial.unity
